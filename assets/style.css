@@ -1,0 +1,60 @@
+
+/* wild card to remove padding */
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+/* Font styling */
+h3 {
+    font-family: 'Pacifico', sans-serif;
+    letter-spacing: 3px;
+    color:#c0500c;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color:#777777;
+}
+/*                           header */
+
+#logo {
+    float:left;
+    font-size:200%;
+    padding-left: 2%;
+    
+}
+
+
+#menu {
+    font-size: 110%;
+    list-style-type:none;
+    letter-spacing:3px;
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+#menu li {
+    float:right;
+    margin-right:30px;
+
+}
+
+#menu a {
+    text-decoration: none;
+    color:inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #c0500c;
+}
+
+#hero-image {
+    height:600px;
+    width:100%;
+    background-image: url("https://cdn.pixabay.com/photo/2015/03/26/10/22/band-691224_1280.jpg")
+}
