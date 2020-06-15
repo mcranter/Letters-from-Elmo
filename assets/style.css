@@ -23,11 +23,12 @@ body {
     float:left;
     font-size:200%;
     padding-left: 2%;
+    margin-left:30px;
     
     
 }
 
-#logo h3 {
+#nav-logo {
     color:#db5a0a;
 }
 
@@ -60,7 +61,7 @@ body {
 #hero-image {
     height:600px;
     width:100%;
-    background: url("images/hero1.jpg") no-repeat center center;
+    background: url("images/hero2.png") no-repeat center center;
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -99,7 +100,7 @@ body {
 }
 
 #playlist {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: #777777;
     padding-top:5%;
@@ -107,12 +108,17 @@ body {
 }
 
 p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 /*-------------------section1--------*/
 
 .section1 p {
     letter-spacing: 2.5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#intro {
+    font-size: h3;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -133,12 +139,12 @@ p {
 }
 
 #playlist-left {
-    padding-top: 30px;
+    padding: 30px;
     width:100%;
     float:left;
 }
 #text-right {
-    padding-top: 30px;
+    padding: 30px;
     width:100%;
     float:right;
 }
@@ -219,6 +225,123 @@ footer {
   margin-bottom:15px;
   padding-left: 10px; 
   padding-top: 10px;
+  scroll-behavior: auto;
 
 }
 
+/*gallery    */
+
+#photo {
+    column-count: 4;
+    column-gap:0px;
+    height:100%;
+    width:100%;
+}
+
+#photo img {
+    width:100%;
+}
+
+.container {
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-left:20px;
+    padding-top:20px;
+    padding-bottom:5px;
+}
+
+
+#widget {
+    padding-top:20px;
+    padding-bottom:5px;
+    float:right;
+    clear: both;
+    margin-left:30px;
+    margin-top:30px;
+
+}
+
+#tour-text {
+    float:left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 130%;
+    width:100%;
+    padding-top:30px;
+    padding-right:15px;
+}
+
+
+
+.row {
+  grid-column-gap:1px;
+ 
+}
+
+.col-sm-3 {
+    background-color:#db5a0a; 
+    min-height: 70px;
+    color:antiquewhite;
+    border-radius: 5%;
+    padding-top:20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.col-sm-6 {
+    background-color:#db5a0a; 
+    min-height: 70px;
+    color:orange;
+    border-radius: 5%;
+    padding-top:20px;
+    border-left:5px;
+    font-family:'Poppins';
+}
+
+#buttontix {
+    color:#db5a0a;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* about us */ 
+#about-her0 {
+    width:100%;
+}
+
+.about-text {
+    float:left;
+    margin-left:40px;
+    width:50%;
+    margin-top:40px;
+    padding-bottom:40px;
+}
+
+.about-text1 {
+    width:100%;
+    height:100%;
+}
+
+#about-img {
+    width:100%;
+
+}
+
+.about-text2 {
+    float:right;
+    margin-right:40px;
+    width:50%;
+    margin-top:40px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1393px) {
+    #photo{
+        width:100%;
+        
+    }
+}

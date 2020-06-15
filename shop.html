@@ -26,11 +26,150 @@
             </ul>   
         </nav>  
     </header>
-    <section>
-        <div id="hero-image"></div>
-    </section> 
+    <div id='collection-component-1592248268998'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'an-author-you-cant-refuse.myshopify.com',
+      storefrontAccessToken: '175b3ea60fa0816551ea41ff7824fd2e',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: '31799050282',
+        node: document.getElementById('collection-component-1592248268998'),
+        moneyFormat: '%E2%82%AC%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(50% - 40px)",
+          "margin-left": "40px",
+          "margin-bottom": "50px",
+          "width": "calc(50% - 40px)"
+        },
+        "img": {
+          "height": "calc(100% - 15px)",
+          "position": "absolute",
+          "left": "0",
+          "right": "0",
+          "top": "0"
+        },
+        "imgWrapper": {
+          "padding-top": "calc(75% + 15px)",
+          "position": "relative",
+          "height": "0"
+        }
+      },
+      "title": {
+        "font-family": "Lato, sans-serif",
+        "font-size": "20px"
+      },
+      "price": {
+        "font-family": "Lato, sans-serif",
+        "font-size": "18px"
+      },
+      "compareAt": {
+        "font-family": "Lato, sans-serif",
+        "font-size": "15.299999999999999px"
+      },
+      "unitPrice": {
+        "font-family": "Lato, sans-serif",
+        "font-size": "15.299999999999999px"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    },
+    "googleFonts": [
+      "Lato"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-40px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Lato, sans-serif",
+        "font-size": "15px"
+      },
+      "select": {
+        "font-family": "Lato, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Lato"
+    ]
+  },
+  "cart": {
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
     <section>tour dates 
         link to tickets</section>
-    <footer>footer</footer>
+    <footer>
+        <ul class="social-menu">
+        <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.soundcloud.com/" target="_blank"><i class="fab fa-soundcloud"></i></a></li>
+        <li><a href="https://www.itunes.com/" target="_blank"><i class="fab fa-itunes"></i></a></li>
+        <li><a href="https://www.spotify.com/" target="_blank"><i class="fab fa-spotify"></i></a></li>        
+        </ul>
+    </footer>
 </body>
 </html>

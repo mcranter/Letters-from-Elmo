@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Letters from Elmo</title>
-    <link rel="stylesheet" href="assets/style.css" type="text/css"><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@300;400&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css" type="text/css"><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@300;400&family=Poppins:wght@200&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/693fd6c073.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen">
 </head>
 <body>
     <header>
         <nav>
-            <h3 id="logo"><a href="index.html">Letters from Elmo</h3></a>
+            <h3 id="logo"><class id="nav-logo" a href="index.html">Letters from Elmo</a></h3>
             <ul id="menu">
                 <li>
                 <a href="shop.html">shop</a>
@@ -26,11 +29,60 @@
             </ul>   
         </nav>  
     </header>
-    <section>
-        <div id="hero-image"></div>
-    </section> 
-    <section>tour dates 
-        link to tickets</section>
-    <footer>footer</footer>
+    <section id="photo">
+        <img src="assets/images/gallery1.png">
+        <img src="assets/images/gallery2.png">
+        <img src="assets/images/gallery3.png">
+        <img src="assets/images/gallery4.png">
+        <img src="assets/images/gallery7.png">
+        <img src="assets/images/gallery8.png">
+        <img src="assets/images/gallery9.png">
+        <img src="assets/images/gallery6.png">
+        <img src="assets/images/gallery10.png">
+        <img src="assets/images/gallery11.png">
+        <img src="assets/images/gallery12.png">
+        <img src="assets/images/gallery5.png">
+    </section>
+        <hr>
+    <section class="container">
+        <div id="tour-text">
+            <div class="row">
+            <div class="col-sm-3">APR 16</div>
+            <div class="col-sm-6">Columbiahalle, Berlin</div>
+            <div class="col-sm-3"><button type="button" id="buttontix" class="btn btn-warning">Buy Tickets</button></div>
+            <div class="col-sm-3">MAY 31</div>
+            <div class="col-sm-6">Android's Dungeon, Springfield</div>
+            <div class="col-sm-3"><button type="button" id="buttontix" class="btn btn-warning">Buy Tickets</button></div>
+            <div class="col-sm-3">JUN 30</div>
+            <div class="col-sm-6">The Peach Pit, Beverly Hills</div>
+            <div class="col-sm-3"><button type="button" id="buttontix" class="btn btn-warning">Buy Tickets</button></div>
+            <div class="col-sm-3">JLY 21</div>
+            <div class="col-sm-6">Hula Hanks, Offaly</div>
+            <div class="col-sm-3"><button type="button" id="buttontix" class="btn btn-warning">Buy Tickets</button></div>
+            <div class="col-sm-3">AUG 30</div>
+            <div class="col-sm-6">The Bytebar, London</div>
+            <div class="col-sm-3"><button type="button" id="buttontix" class="btn btn-warning">Buy Tickets</button></div>
+            <div class="col-sm-3">SEPT 21</div>
+            <div class="col-sm-6">Bar Bar, Louth</div>
+            <div class="col-sm-3"><button type="button" id="buttontix" class="btn btn-warning">Buy Tickets</button></div>
+            <div class="col-sm-3">OCT 21</div>
+            <div class="col-sm-6">Star Bar, Mullingar</div>
+            <div class="col-sm-3"><button type="button" id="buttontix" class="btn btn-warning">Buy Tickets</button></div>
+        </div>
+        </div>
+        <div id="widget" w-type="calendar" w-tmapikey="pLOeuGq2JL05uEGrZG7DuGWu6sh2OnMz" w-googleapikey="YOUR_GOOGLE_API_KEY" w-keyword="" w-theme="calendar" w-colorscheme="custom" w-width="350" w-height="490" w-size="25" w-border="1" w-borderradius="4" w-postalcode="" w-radius="25" w-countrycode="IE" w-city="" w-period="week" w-periodweek="week" w-layout="vertical" w-classificationid="" w-attractionid="" w-promoterid="" w-venueid="" w-affiliateid="" w-segmentid="" w-proportion="standart" w-latlong="" w-background="#db5a0a">
+        </div>
+
+    </section>
+    <footer>
+        <ul class="social-menu">
+        <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.soundcloud.com/" target="_blank"><i class="fab fa-soundcloud"></i></a></li>
+        <li><a href="https://www.itunes.com/" target="_blank"><i class="fab fa-itunes"></i></a></li>
+        <li><a href="https://www.spotify.com/" target="_blank"><i class="fab fa-spotify"></i></a></li>        
+        </ul>
+    </footer>
+   <script src="https://ticketmaster-api-staging.github.io/products-and-docs/widgets/calendar/1.0.0/lib/main-widget.js"></script>
 </body>
 </html>
