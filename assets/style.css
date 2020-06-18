@@ -191,7 +191,7 @@ p {
 #button-contact {
     color:#c0500c
 }
-
+/*-------------------Footer--------*/
 footer {
     height:300px;
 }
@@ -210,7 +210,7 @@ footer {
     padding:5%;
     color:#c0500c;
 }
-
+/*-------------------review carousel--------*/
 .section3 {
     width: 100%;
     border-bottom: 1px solid #db5a0a;
@@ -228,7 +228,7 @@ footer {
 
 }
 
-/*gallery    */
+/*-----------------gallery -----   */
 
 #photo {
     column-count: 4;
@@ -252,13 +252,13 @@ footer {
 }
 */
 
-
+/*-------------------ticket widget--------*/
 #widget {
     padding:10px;
     clear: both;
     
 }
-
+/*-------------------tour dates--------*/
 
 #tour-text {
     float:left;
@@ -298,12 +298,10 @@ footer {
     font-family: 'Poppins', sans-serif;
 }
 
-/* about us */ 
+/* ------------about us--------------- */ 
 #about-her0 {
     width:100%;
 }
-
-
 
 .about-text {
     float:left;
@@ -326,24 +324,21 @@ footer {
     width:100%;
 }
 
-
-
-.about-text2 {
-    float:right;
-    margin-right:40px;
-    width:50%;
-    margin-top:40px;
+.text2 {
+    
+    margin:20px;
+    padding:20px;
 }
 
 /* contact page 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 150%; /* Full width */
+  width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
+  margin-top: 10px; /* Add a top margin */
   margin-bottom: 20px; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
   font-family:'Poppins', sans-serif;
