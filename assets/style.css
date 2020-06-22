@@ -4,18 +4,19 @@
 #logo {
     font-family: 'Pacifico', sans-serif;
     letter-spacing: 3px;
-    color:#db5a0a; 
+    color:#ca5005; 
     text-decoration: none;    
+    padding-top: 20px;
 }
 
 #letters {
-    color:#db5a0a; 
+    color:#ca5005; 
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     font-weight:300;
-    color:#ce550b;
+    color:#ca5005;
 }
 /* Header ------ nav menu */
 #menu {
@@ -57,10 +58,36 @@ body {
 }
 
 #intro {
-    padding-top:20px;
+    padding-top:40px;
 }
 #video {
     padding-top:10px;
+    padding:30px;
+}
+
+#quote {
+    text-align:center;
+    width:100%;
+    padding-top:30px;
+}
+
+#vid-place {
+    text-shadow: 0 1px black, -1px 0 black;
+}
+
+#icon {
+    font-size:150%;
+}
+    
+/* Slideshow */
+
+#my-carousel {
+    width:100%;
+}
+
+.carousel-item{
+    text-align: center;
+    min-height: 280px; 
 }
 
 /* Footer */
@@ -90,3 +117,4 @@ body {
 #social-menu:hover {
     color: #c0500a;
 }
+
