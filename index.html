@@ -6,8 +6,6 @@
     <title>Letters from Elmo</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css" type="text/css"><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@300;400&family=Roboto:wght@300;400&family=Pacifico&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://kit.fontawesome.com/693fd6c073.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -32,7 +30,7 @@
     </header>
     <section class="container">
         <div class="row">
-            <div class="col" id ="hero-img"><img src="images/hero3.jpg" class="img-fluid" alt="band"></div>
+            <div class="col" id ="hero-img"><img src="assets/images/hero3.jpg" class="img-fluid" alt="band"></div>
         </div>    
         <div class="row">
             <div class="col-12" id="intro">
@@ -42,7 +40,7 @@
             We play them all!</p></div>
             <p class="text-center">Get in touch to find out more.</p>
             <div class="text-center">
-            <a class="btn btn-primary" href="about-us.html" role="button" id="learn">Learn More</a></button>            
+            <a class="btn btn-primary" href="about-us.html" role="button" id="learn">Learn More</a>          
             </div>
             </div>
         </div>
@@ -52,7 +50,6 @@
             <div class="col" class="text-center">
             <p class="text-center" class="mb-0"><em>Check out our latest single</em></p> 
             <h3 class="text-center" id="vid-place">Video Placeholder</p>
-            </blockquote>
             </div>
                 <div class="embed-responsive embed-responsive-16by9">
                 <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI?start=3" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="embed-responsive-item" id="video"></iframe>
@@ -64,39 +61,42 @@
     
     <div class="container">         
         <div id="my-carousel" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#my-carousel0" data-slide-to="0" class="active"></li>
-            <li data-target="#my-carousel1" data-slide-to="1"></li>
-            <li data-target="#my-carousel2" data-slide-to="2"></li>
-        </ul>    
             <div class="carousel-inner">
                 <div class="carousel-item active" id="my-carousel0">
-                    <img class="d-block w-100" src="images/bride.png" alt="bride" />
+                    <img class="d-block w-100" src="assets/images/slide1.jpg" alt="bride">
                 <div class="carousel-caption">
                     <i class="fas fa-quote-left" id="icon"></i>
                     <h4 id="quote">We had a great time on our special day! Thanks, folks!</h4>
-                    <p><em>Alison & Mark, Mayo 23/09/19</em></p>
+                    <p id="quote-1"><em>Alison & Mark, Mayo 23/09/19</em></p>
                 </div>
-            </div>
+                </div>
 
-            <div class="carousel-item" id="my-carousel1">
-                <img class="d-block w-100" src="images/bride&groom.png" alt="bride&groom">
+                <div class="carousel-item" id="my-carousel1">
+                    <img class="d-block w-100" src="assets/images/slide2.jpg" alt="bride&groom">
                 <div class="carousel-caption">
                     <i class="fas fa-quote-left" id="icon"></i>
                     <h4 id="quote">Our guests loved L.F.E!</h4>
-                    <p><em>Max & Max, Dublin 09/09/19</em></p>
+                    <p id="quote-1"><em>Max & Max, Dublin 09/09/19</em></p>
                 </div>
-            </div>
+                </div>
             
-            <div class="carousel-item" id="my-carousel2">
-                <img class="d-block w-100" src="images/bride-groom-kiss.png" alt="bride and groom embrace">
+                <div class="carousel-item" id="my-carousel2">
+                    <img class="d-block w-100" src="assets/images/slide3.jpg" alt="bride and groom embrace">
                 <div class="carousel-caption">
                     <i class="fas fa-quote-left" id="icon"></i>
                     <h4 id="quote">I'm booking you for all my weddings!</h4>
-                    <p><em>Joan & Gavin, Galway 12/12/19</em></p>
+                    <p id="quote-1"><em>Joan & Gavin, Galway 12/12/19</em></p>
+                </div>
                 </div>
             </div>
-        </div>
+            <a class="carousel-control-prev" href="#my-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+                <a class="carousel-control-next" href="#my-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>        
     </div>        
     <footer>
@@ -108,5 +108,8 @@
             <li><a href="https://www.spotify.com/" target="_blank"><i class="fab fa-spotify"></i></a></li>        
         </ul>
     </footer> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
