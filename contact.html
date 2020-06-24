@@ -10,19 +10,59 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen">
 </head>
 <body>
-    
-    <form action="" style="width: 500px; margin:auto"> 
-        <label for="username">username</label>
-        <input type="text" name="username" class="form-control">
-        <label for="password">Password</label>
-        <input type="password" name="password" class="form-control">
-        <label for="gender">Gender</label>
-        <select name="gender" id="gender" class="form-control">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-        </select>    
-    </form>   
-    
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a href="index.html" class="navbar-brand" id="logo">Letters from Elmo</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>    
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="navbar-nav" id="menu">
+                <li class="nav-item">
+                    <a href="about-us.html" class="nav-link">about us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">contact</a>
+                </li>    
+            </ul>
+        </div>
+    </nav> 
+    <div class="container">
+        <form action="" class="main-form" style="width: 500px; margin:auto"> 
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" class="form-control is-invalid">
+                        
+                    </div>
+                </div>    
+                <div class="col">
+                    <div class="form-group">
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" class="form-control">
+                    </div>
+                </div>
+            </div>    
+            <div class="row">
+                <div class="col">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">    
+                    <label for="subject">Subject</label>
+                    <select name="subject" id="subject" class="form-control">
+                    <option value="event">Event Booking</option>
+                    <option value="press">Press enquiries</option>
+                    <option value="press">Press enquiries</option>
+                </div>
+            </div>    
+        </form>   
+    </div>
 <section>
 Calendar to go here
 </section> 

@@ -9,25 +9,26 @@
     <script src="https://kit.fontawesome.com/693fd6c073.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <nav class="container" id="logo">
-            <h4><a class="active" href="index.html" id="letters">Letters from Elmo</a></h4>
-            <ul id="menu">
-                <li>
-                    <a href="shop.html">shop</a>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a href="index.html" class="navbar-brand" id="logo">Letters from Elmo</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>    
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="navbar-nav" id="menu">
+                <li class="nav-item">
+                    <a href="about-us.html" class="nav-link">about us</a>
                 </li>
-                <li>
-                    <a href="contact.html">contact</a>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">gallery</a>
                 </li>
-                <li>
-                    <a href="gallery.html">gallery</a>
-                </li>
-                <li>
-                    <a href="about-us.html">about us</a>
-                </li>
-            </ul>   
-        </nav>  
-    </header>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">contact</a>
+                </li>    
+            </ul>
+        </div>
+    </nav>    
+    
     <section class="container">
         <div class="row">
             <div class="col" id ="hero-img"><img src="assets/images/hero3.jpg" class="img-fluid" alt="band"></div>
@@ -46,20 +47,7 @@
         </div>
         <br>
     <hr>
-        <div class="row">
-            <div class="col" class="text-center">
-            <p class="text-center" class="mb-0"><em>Check out our latest single</em></p> 
-            <h3 class="text-center" id="vid-place">Video Placeholder</p>
-            </div>
-                <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI?start=3" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="embed-responsive-item" id="video"></iframe>
-                </div>
-        </div>
-    <hr>    
-    </section>
-    <!--carousel--> 
-    
-    <div class="container">         
+     <div class="container">         
         <div id="my-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" id="my-carousel0">
@@ -78,8 +66,7 @@
                     <h4 id="quote">Our guests loved L.F.E!</h4>
                     <p id="quote-1"><em>Max & Max, Dublin 09/09/19</em></p>
                 </div>
-                </div>
-            
+                </div>            
                 <div class="carousel-item" id="my-carousel2">
                     <img class="d-block w-100" src="assets/images/slide3.jpg" alt="bride and groom embrace">
                 <div class="carousel-caption">
@@ -89,16 +76,31 @@
                 </div>
                 </div>
             </div>
+            <!--carousel controls--> 
             <a class="carousel-control-prev" href="#my-carousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-                <a class="carousel-control-next" href="#my-carousel" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#my-carousel" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>        
-    </div>        
+    </div> 
+    <hr>
+        <div class="row">
+            <div class="col" class="text-center">
+            <p class="text-center" class="mb-0"><em>Check out our latest single</em></p> 
+            <h3 class="text-center" id="vid-place">Video Placeholder</p>
+            </div>
+                <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI?start=3" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="embed-responsive-item" id="video"></iframe>
+                </div>
+        </div>
+        
+    </section>
+  
+      <!--footer-->      
     <footer>
         <ul class="social-menu">
             <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>

@@ -144,3 +144,11 @@ body {
     color: #c0500a;
 }
 
+.main-form {
+    width:450px;
+    margin: auto;
+}
+
+.card {
+    padding-bottom:20px;
+}

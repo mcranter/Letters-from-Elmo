@@ -5,48 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Letters from Elmo</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css" type="text/css"><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@300;400&family=Roboto:wght@300;400&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css" type="text/css"><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@300;400&family=Poppins:wght@200&family=Pacifico&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/693fd6c073.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen">
 </head>
-
-<body> 
+<body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a href="index.html" class="navbar-brand" id="logo">Letters from Elmo</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar1">
-            <span class="navbar-toggler-icon"></span>
-        </button>    
-        <div class="collapse navbar-collapse" id="navbar1">
-            <ul class="navbar-nav" id="menu">
-                <li class="nav-item">
-                    <a href="about-us.html" class="nav-link">about us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="gallery.html" class="nav-link">gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a href="shop.html" class="nav-link">shop</a>
-                </li>    
-            </ul>
+            <a href="index.html" class="navbar-brand" id="logo">Letters from Elmo</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>    
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav" id="menu">
+                    <li class="nav-item">
+                        <a href="about-us.html" class="nav-link">about us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">contact</a>
+                    </li>    
+                </ul>
+            </div>
+    </nav>
+<!--Band cards-Number1-->  
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card-deck">
+                <div class="card" style="width: 18rem;">
+                <img src="assets/images/adele.png" class="card-img-top" alt="woman with sg style guitar">
+                <div class="card-body">    
+                    <p class="card-text">Adele has been playing guitar for 15 years and has wowed fans worldwide with her epic shred skills.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><b>Instruments</b>: Guitar, Sitar, Theramin</li>
+                    <li class="list-group-item">Fave Genre: Acid Jazz</li>
+                    <li class="list-group-item">Fun Fact: Loves beetles</li>
+                </ul>
+                </div>
+            </div>
+        </div> 
+        <div class="col-sm-12 col-md-6 col-lg-4">    
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/drummer.png" class="card-img-top" alt="man drumming">
+                <div class="card-body">
+                <p class="card-text">Before joining <em>Letters for Elmo</em>, Ginger was the drummer with a speed metal band called 'Death to All Muppets'. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><b>Instruments</b>: Drums, Cajon, Spoons</li>
+                    <li class="list-group-item">Fave Genre: Skunk Metal </li>
+                    <li class="list-group-item">Fun Fact: Has played 407 weddings</li>
+                </ul>
+            </div>    
         </div>
-    </nav>    
-   <!--
-    <div class="container">
-     <img id="about-her0" src="assets/images/gallery4.png alt=" alt="band on stage">   
-    </section> 
-    <section class="container about-text">
-    <p id="about-text"><i>Letters from Elmo</i> are a Dublin-based jazz band founded in 2000. 
-        <p>Since then we've gone on to develop a loyal following around the country and have entertained countless 
-        couples on their special days.
-        <p>Our latest single 'Video Placeholder' is out now.</p>
-    </section>
-    <section class="container text1">
-    <img id="about-img" src="assets/images/gallery11.png">
-    </section>    
-    <div class="container text2">
-    Since then we've gone on to develop a loyal following around the country and have entertained countless 
-        couples on their special days.
+        <div class="col-sm-12 col-md-6 col-lg-4">    
+            <div class="card" style="width: 18rem;">
+                <img src="assets/images/bass-woman.jpg" class="card-img-top" alt="lady holding bass">
+                <div class="card-body">
+                    <p class="card-text">Before joining <em>Letters for Elmo</em>, Ginger was the drummer with a speed metal band called 'Death to All Muppets'. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><p><strong>Instruments</strong>: Bass, ukelele</li>
+                    <li class="list-group-item">Fave Genre: Skunk Metal </li>
+                    <li class="list-group-item">Fun Fact: Has played 407 weddings</li>
+                </ul>
+            </div>    
+        </div>    
     </div>
-    --> 
+
+</div>    
+
+
+
+
+
+
+
+  
     <footer>
         <ul class="social-menu">
             <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
