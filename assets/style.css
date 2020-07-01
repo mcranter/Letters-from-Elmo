@@ -152,3 +152,83 @@ body {
 .card {
     padding-bottom:20px;
 }
+
+#bold {
+    font-family: "Poppins";
+
+}
+
+.albums {
+    float:right;
+}
+
+.media1 { 
+    padding-left:15px;
+    height:500px;
+}
+
+#spotify {
+    width:100%;
+    
+}
+
+#spotify-txt {
+    width:100%;
+    font-family: 'Poppins',sans-serif;
+    background-color:#c0500a;
+    height:500px;
+}
+
+#thumb {
+    width:60px;
+    height:60px;
+}
+
+#hr {
+    padding-top:70px;
+}
+
+#gall-slide {
+   max-width: 100%;
+   height:auto;
+}
+
+.row-gal {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-gal {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column-gal img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-gal {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-gal {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+#names {
+    padding-top:20px;
+}

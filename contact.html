@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Letters from Elmo</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css" type="text/css"><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@300;400&family=Poppins:wght@200&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css" type="text/css"><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@200;300;400;600;700&family=Roboto:wght@300;400&family=Pacifico&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/693fd6c073.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen">
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
@@ -29,44 +28,68 @@
             </ul>
         </div>
     </nav> 
-    <div class="container">
-        <form action="" class="main-form" style="width: 500px; margin:auto"> 
-            <div class="row">
-                <div class="col">
-                    <div class="form-group">
-                        <label for="fname">First Name</label>
-                        <input type="text" name="fname" class="form-control is-invalid">
-                        
+    
+    <section>
+        <div class="container" style="background-image: url('assets/images/gallery9.png');">
+            <form action="" class="main-form" style="width: auto; margin:auto; font-size:120%;color:antiquewhite; font-weight:700"> 
+                <div class="row" id="names">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="fname">First Name</label>
+                            <input type="text" name="fname" class="form-control">
+                            
+                        </div>
+                    </div>    
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="lname" class="form-control">
+                        </div>
                     </div>
                 </div>    
-                <div class="col">
+                <div class="row">
+                    <div class="col">
                     <div class="form-group">
-                        <label for="lname">Last Name</label>
-                        <input type="text" name="lname" class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="form-control">
+                    </div>
                     </div>
                 </div>
-            </div>    
-            <div class="row">
-                <div class="col">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" class="form-control">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">    
-                    <label for="subject">Subject</label>
-                    <select name="subject" id="subject" class="form-control">
-                    <option value="event">Event Booking</option>
-                    <option value="press">Press enquiries</option>
-                    <option value="press">Press enquiries</option>
-                </div>
-            </div>    
-        </form>   
+                <div class="row">
+                    <div class="col">    
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select name="subject" id="subject" class="form-control">
+                            <option value="event">Event Booking</option>
+                            <option value="press">Press enquiries</option>
+                            <option value="media">Media Requests</option>
+                            <option value="other">Other</option>
+                            </select>
+                        </div> 
+                    </div>   
+                </div> 
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">   
+                        <label for="subject">Message</label>
+                        <textarea class="form-control" name="subject" placeholder="Write something.." style="height:200px;width:100%;margin-bottom:5%; margin:auto;"></textarea>
+                        </div>  
+                    </div>
+                </div>                  
+            </form>   
+        </div>
+    </section> 
+    <div class="row">
+        <div class="col">
+            <p><i class="far fa-envelope" style="font-size:200%;"></i>
+            <i class="fas fa-mobile-alt" style="font-size:200%;"></i>
+            <i class="fab fa-slack" style="font-size:200%;"></i>
+            <i class="fab fa-discord" style="font-size:200%;"></i>
+            <i class="fas fa-home" style="font-size:200%;"></i>
+            </p>
+        </div>
     </div>
-<section>
-Calendar to go here
-</section> 
-
+    
     <footer>
         <ul class="social-menu">
         <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
