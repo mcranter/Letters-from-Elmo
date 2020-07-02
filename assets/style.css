@@ -47,7 +47,12 @@ body {
 #menu a:hover {
     border-bottom: 1px solid #c0500c;
 }
-/*--------------- Hero Image*/
+
+#navbar1 {
+    color:#c0500c;
+}
+
+/*--Home/index------------- Hero Image*/
 #hero-img {
     height:auto;
     max-width:100%;   
@@ -57,9 +62,22 @@ body {
     background-color:#ce550b;   
 }
 
+#descrip {
+    font-weight:400;
+    font-size:105%;
+    font-style:italic;
+}
+
 #intro {
     padding-top:40px;
+    font-weight:300;
+    font-size:140%;
 }
+#intro2 {
+    font-weight:200;
+    font-size:100%;
+}
+
 #video {
     padding-top:10px;
     padding-bottom:30px;
@@ -91,8 +109,42 @@ body {
     font-size:150%;
     background: rgba(0, 0, 0, .1);
 }
+
+#tshirt {
+    width:100%;
+    height:auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Poppins';
+}
+
+.price {
+  color: #ce550b;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #ce550b;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
     
-/* Slideshow */
+/*------- Review Slideshow------ */
 
 #my-carousel {
     width:100%;
@@ -148,28 +200,27 @@ body {
     width:450px;
     margin: auto;
 }
-
+/*--------- About Us-----------*/
 .card {
     padding-bottom:20px;
 }
 
 #bold {
     font-family: "Poppins";
-
 }
 
 .albums {
     float:right;
 }
 
-.media1 { 
-    padding-left:15px;
+.media2 { 
     height:500px;
+    width:100%;
 }
 
 #spotify {
     width:100%;
-    
+    padding-bottom:20px;
 }
 
 #spotify-txt {
@@ -188,6 +239,8 @@ body {
     padding-top:70px;
 }
 
+/*-----Galllery-----------*/
+
 #gall-slide {
    max-width: 100%;
    height:auto;
@@ -199,7 +252,7 @@ body {
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
+/* Create four columns */
 .column-gal {
   flex: 25%;
   max-width: 25%;
@@ -228,7 +281,22 @@ body {
   }
 }
 
-
 #names {
     padding-top:20px;
 }
+
+#con-icon {
+    text-align:center;
+    padding-top:35px;
+}
+
+#btn-sub {
+    background-color:#ca5005;
+    color: antiquewhite;
+}
+
+#btn-otr {
+    padding-top:20px;
+}
+
+    

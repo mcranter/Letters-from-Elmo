@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css" type="text/css"><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@200;300;400;600;700&family=Roboto:wght@300;400&family=Pacifico&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/693fd6c073.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen">
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <a href="index.html" class="navbar-brand" id="logo">Letters from Elmo</a>
+<!--Nav menu--> 
+    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+        <a href="index.html" class="navbar-brand" id="logo">Letters from Elmo</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar1">
                 <span class="navbar-toggler-icon"></span>
             </button>    
@@ -30,8 +30,8 @@
             </div>
     </nav>
 <!--Band cards-adele-->  
-<div class="container">
-        <div class="row row-col-xs-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+    <div class="container">
+        <div class="row row-cols-xs-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
             <div class="col">
                     <div class="card h-100" style="width: 14rem;">
                     <img src="assets/images/adele.png" class="card-img-top" alt="woman with sg style guitar">
@@ -104,15 +104,19 @@
                 </div>
             </div>    
         </div> 
-        <hr id="hr">
-        <!--spotify playlist-->   
-        <div class="row row-col-xs-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2">
+</div>        
+    <hr id="hr">
+ <!--spotify playlist-->  
+    <div class="container">     
+        <div class="row row-col-xs-1 row-col-sm-1 row-col-lg-2">
             <div class="col media1">
                 <media><iframe id="spotify" src="https://open.spotify.com/embed/playlist/2B7bxLHxTJvyrow1g4XU0n" width="350" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media" class="text-center"></iframe></media>
             </div>
-            <!-- discography table-->
-            <div class="col" id="spotify-txt">
-                <table class="table table-dark" height="500px" id="spotify-txt">
+        
+ <!-- discography table-->
+         
+            <div class="col" id="media2">
+                <table class="table table-dark" id="spotify-txt">
                     <thead>
                         <tr>
                         <th scope="col">DISCOGRAPHY</th>
@@ -165,31 +169,24 @@
                 <h3 class="text-center" id="vid-place">Video Placeholder</p>
             </div>
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI?start=3" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="embed-responsive-item" id="video"></iframe>
+                <iframe src="https://www.youtube.com/embed/NpEaa2P7qZI?start=3" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="embed-responsive-item" id="video1"></iframe>
             </div>
         </div>
-
+    </div>
 
 </div>
-    
-
-
-
-
-
-
-
-  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<!--Footer--> 
     <footer>
         <ul class="social-menu">
             <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
             <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
             <li><a href="https://www.soundcloud.com/" target="_blank"><i class="fab fa-soundcloud"></i></a></li>
-            <li><a href="https://www.itunes.com/" target="_blank"><i class="fab fa-itunes"></i></a></li>            <li><a href="https://www.spotify.com/" target="_blank"><i class="fab fa-spotify"></i></a></li>        
+            <li><a href="https://www.itunes.com/" target="_blank"><i class="fab fa-itunes"></i></a></li>            
+            <li><a href="https://www.spotify.com/" target="_blank"><i class="fab fa-spotify"></i></a></li>        
         </ul>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
