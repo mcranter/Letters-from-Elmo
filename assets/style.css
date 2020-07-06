@@ -7,6 +7,7 @@
     color:#ca5005; 
     text-decoration: none;    
     padding-top: 20px;
+    width:100%;
 }
 
 #letters {
@@ -213,21 +214,25 @@ body {
     float:right;
 }
 
-.media2 { 
+#media2 { 
     height:500px;
-    width:100%;
+    margin-bottom: 20px;
+    
 }
 
-#spotify {
-    width:100%;
+#gap {
     padding-bottom:20px;
 }
+#video {
+    padding:0;
+}
 
-#spotify-txt {
-    width:100%;
+#discog {
     font-family: 'Poppins',sans-serif;
     background-color:#c0500a;
     height:500px;
+    padding-top:20px;
+    width:100%;
 }
 
 #thumb {
