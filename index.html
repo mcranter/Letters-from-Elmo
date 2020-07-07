@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/693fd6c073.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!--Navigation bar-->
     <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
         <a href="index.html" class="navbar-brand" id="logo">Letters from Elmo</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar1" style="width:100%;">
@@ -28,7 +29,7 @@
             </ul>
         </div>
     </nav>    
-    
+    <!--Intro text-->
     <section class="container">
         <div class="row">
             <div class="col" id ="hero-img"><img src="images/hero3.jpg" class="img-fluid" alt="band"></div>
@@ -48,18 +49,19 @@
         </div>
         <br>
     <hr id="hr">
-    <div class="container">         
+    <!--Reviews carousel-->
+    <div class="container">
+        <h2 style="font-family:'Pacifico';" class="text-center"> Reviews </h2>        
         <div id="my-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" id="my-carousel0">
-                    <img class="d-block w-100 h-200" src="images/slide1.jpg" alt="bride">
+                    <img class="d-block w-100 h-250" src="images/slide1.jpg" alt="bride">
                 <div class="carousel-caption text-center">
                     <i class="fas fa-quote-left" id="icon"></i>
-                    <h4 id="quote">We had a great time on our special day! Thanks, folks!</h4>
+                    <h5 id="quote">We had a great time on our special day! Thanks, folks!</h5>
                     <p id="quote-1"><em>Alison & Mark, Mayo 23/09/19</em></p>
                 </div>
                 </div>
-
                 <div class="carousel-item" id="my-carousel1">
                     <img class="d-block w-100 h-200" src="images/slide2.jpg" alt="bride&groom">
                 <div class="carousel-caption">
@@ -89,11 +91,12 @@
         </div>        
     </div> 
     <hr id="hr">
+    <!--Merchandise card-->
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="card tee">
-                    <h3><p style="font-weight:200;font-size:120%;background-color:#c0500c;background-height:120%;font-family:'Poppins';color:antiquewhite;" class="text-center">Buy Our Merch</p></h3>
+                    <h3><p style="font-weight:200;font-size:100%;background-color:#c0500c;background-height:120%;font-family:'Pacifico';color:white;" class="text-center">Buy Our Merch</p></h3>
                     <img id="tshirt" src="images/tshirt.png" alt="band t-shirt">
                     <h4>Classic Band Shirt</h4>
                     <p class="price">€20.00</p>
@@ -112,17 +115,36 @@
             </div>    
         </div>   
     </div>  
+    <!--Scripts-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!--footer-->      
     <footer>
-        <ul class="social-menu">
-            <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://www.soundcloud.com/" target="_blank"><i class="fab fa-soundcloud"></i></a></li>
-            <li><a href="https://www.itunes.com/" target="_blank"><i class="fab fa-itunes"></i></a></li>            
-            <li><a href="https://www.spotify.com/" target="_blank"><i class="fab fa-spotify"></i></a></li>        
+    <!--Newsletter signup form-->
+    <section class="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="content">
+                    <p class="text-center" style="font-family:'Pacifico';">Subscribe to our Newsletter!</p>
+                <div class="input-group">
+                <input type="email" class="form-control" placeholder="Enter your email">
+                <span class="input-group-btn">
+                <button class="btn" type="submit">Subscribe Now</button>
+                </span>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <ul class="social-menu" style="padding:0;">
+        <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.soundcloud.com/" target="_blank"><i class="fab fa-soundcloud"></i></a></li>
+        <li><a href="https://www.itunes.com/" target="_blank"><i class="fab fa-itunes"></i></a></li>
+        <li><a href="https://www.spotify.com/" target="_blank"><i class="fab fa-spotify"></i></a></li>        
         </ul>
     </footer>
 </body>

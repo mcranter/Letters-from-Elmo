@@ -248,7 +248,7 @@ body {
 }
 
 #hr {
-    padding-top:70px;
+    padding-top:50px;
 }
 
 /*-----Galllery-----------*/
@@ -304,11 +304,40 @@ body {
 
 #btn-sub {
     background-color:#ca5005;
-    color: antiquewhite;
+    color: rgb(236, 82, 43);
 }
 
 #btn-otr {
     padding-top:20px;
 }
 
-    
+/* sign up form*/   
+.newsletter {
+padding: 40px 0;
+}
+
+.newsletter .content {
+max-width: 650px;
+margin: 25px auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+.newsletter .content h2 {
+color: #ca5005;
+margin-bottom: 40px; }
+.newsletter .content .form-control {
+height: 50px;
+border-color: #ca5005;
+border-radius:0;
+}
+.newsletter .content.form-control:focus {
+box-shadow: none;
+border: 2px solid #ca5005;
+}
+.newsletter .content .btn {
+min-height: 50px; 
+border-radius:0;
+background: #ca5005;
+color: #fff;
+font-weight:600;
+}
