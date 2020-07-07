@@ -206,6 +206,13 @@ body {
     padding-bottom:20px;
 }
 
+@media screen and (max-width: 600px) {
+  #card-center {
+    margin-left:35px;
+  }
+}
+
+
 #bold {
     font-family: "Poppins";
 }
@@ -275,6 +282,12 @@ body {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+
+#head {
+    margin:0;
+    letter-spacing:2px;
+    padding-top:20px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
