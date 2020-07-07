@@ -217,7 +217,8 @@ body {
 #media2 { 
     height:500px;
     margin-bottom: 20px;
-    
+    width:100%;   
+    row-gap: 
 }
 
 #gap {
@@ -233,6 +234,12 @@ body {
     height:500px;
     padding-top:20px;
     width:100%;
+}
+
+@media screen and (max-width: 1365px) {
+  #media2 {
+    width:450px;
+  }
 }
 
 #thumb {
