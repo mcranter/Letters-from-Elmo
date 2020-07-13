@@ -76,12 +76,11 @@ body {
 #intro {
     padding-top:40px;
     font-weight:300;
-    font-size:160%;
+    font-size:175%;
 }
 
-#intro2 {
-    font-weight:200;
-    font-size:100%;
+.intro2 {
+    font-size:125%;
 }
 
 #video {
@@ -243,7 +242,8 @@ body {
     height:500px;
     padding-top:20px;
     width:100%;
-    padding-left:20px
+    padding-left:20px;
+    padding-right:20px;
 }
 
 
@@ -398,7 +398,7 @@ increases playlist size to fill col*/
     }
 
     #logo {
-        padding-left:60px;
+        padding-left:55px;
         padding-bottom:20px;
     }
 
