@@ -31,7 +31,7 @@ body {
 }
 
 #menu {
-    line-height: 55px;
+    line-height: 45px;
     text-align:center;
     float:right;
     width:100%
@@ -70,7 +70,7 @@ body {
 #intro {
     padding-top:40px;
     font-weight:300;
-    font-size:140%;
+    font-size:160%;
 }
 
 #intro2 {
@@ -160,6 +160,8 @@ body {
     width: 100%; /* or width: 100% !important; */
 }
 
+#hat {
+}
 /* about us --nav bar */
 
 #navbar1 {
@@ -267,6 +269,7 @@ increases playlist size to fill col*/
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) { 
     #card-center { 
         padding-left:0px;
+        padding-bottom:20px;
     }
 
     #logo {
@@ -297,6 +300,10 @@ increases playlist size to fill col*/
 
 /* centres text on iPhone 5se on Chrome Dev Tools mobile emulator */
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+     #navbar1 {
+        padding-left:30px;
+    }
+    
     #card-center { 
         padding-left:45px;
         padding-bottom:25px;
@@ -313,6 +320,10 @@ increases playlist size to fill col*/
 
 /* centres text on Moto4/Galaxy 5 on Chrome Dev Tools mobile emulator */
 @media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+    #navbar1 {
+        padding-left:30px;
+    }
+    
     #card-center { 
         padding-left:65px;
     }
@@ -366,7 +377,7 @@ increases playlist size to fill col*/
     margin:40px;
 }
 
-#merch {
+.merch {
     font-weight:200;
     font-size:150%;
     background-color:#c0500c;
@@ -405,7 +416,7 @@ increases playlist size to fill col*/
 #head {
     margin:0;
     letter-spacing:2px;
-    padding-top:20px;
+    padding-top:30px;
 }
 
 /* Responsive layout to make a two column-layout instead of four columns */
@@ -485,14 +496,14 @@ increases playlist size to fill col*/
 
 /* Contact Page */
 
-#lg-icon {
+.lg-icon {
     font-size:115%;
 }
 
-#lg-icon1 {
+.lg-icon1 {
     font-size:200%;
 }
 
-#lg-icon2 {
+.lg-icon2 {
     font-weight:600;
 }
