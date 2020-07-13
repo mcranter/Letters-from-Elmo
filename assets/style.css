@@ -8,6 +8,8 @@
     padding-top: 20px;
     width:100%;
     margin:0;
+    padding-left:100px;
+    font-size:140%;
 }
 
 #letters {
@@ -264,6 +266,25 @@ increases playlist size to fill col*/
         padding-left:0px;
     }
 }
+/* targets the Text in the review section */
+@media only screen and (min-device-width : 1366px) {
+    .quote {
+        font-size: 400%;
+        font-family: 'Pacifico', sans-serif;
+        padding:25px;
+        
+    }
+
+    .quote-1 {
+        font-size: 300%;
+        font-family: 'Pacifico', sans-serif;
+    }
+
+    .icon-q {
+        font-size: 350%;
+        border-radius:15%;
+    }
+}
 
 /* centres text on iPad Pro on Chrome Dev Tools mobile emulator*/
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) { 
@@ -278,6 +299,25 @@ increases playlist size to fill col*/
 
     .social-menu {
         padding-left:0;
+    }
+
+    /* increases sizes of quotes against images */
+
+    .quote {
+        font-size: 400%;
+        font-family: 'Pacifico', sans-serif;
+        padding:25px;
+        
+    }
+
+    .quote-1 {
+        font-size: 300%;
+        font-family: 'Pacifico', sans-serif;
+    }
+
+    .icon-q {
+        font-size: 350%;
+        border-radius:15%;
     }
 }
 
@@ -316,6 +356,10 @@ increases playlist size to fill col*/
     .social-menu {
         padding-left:0px;
     }
+
+    .quotes {
+        padding-bottom:65px;
+    }
 }
 
 /* centres text on Moto4/Galaxy 5 on Chrome Dev Tools mobile emulator */
@@ -335,6 +379,10 @@ increases playlist size to fill col*/
 
     .social-menu {
         padding-left:0px;
+    }
+
+    .quotes {
+        padding-bottom:40px;
     }
 }
 
