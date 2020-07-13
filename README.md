@@ -149,11 +149,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. The Home page contains a selection of merchandise, clearly labeled and laid out.
 
 
-    1.   "As an existing fan, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the band."
+    1.  "As an existing fan, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the band."
 
         1. Each page contains a minimalist, but clearly marked Newsletter form just above the Footer.
 
--       #### Band/ Site Owner Goals
+-   #### Band/ Site Owner Goals
 
     3. "As the owner of the site and member of the band, I wish to increase our revenue."
 
