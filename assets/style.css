@@ -69,6 +69,10 @@ body {
     background-color:#ce550b;   
 }
 
+#book-btn {
+    background-color:#ce550b;  
+}
+
 #intro {
     padding-top:40px;
     font-weight:300;
@@ -154,7 +158,7 @@ body {
 
 .carousel-item{
     text-align: center;
-    min-height: 280px; 
+    
     width:100%;
 }
 
@@ -162,8 +166,6 @@ body {
     width: 100%; /* or width: 100% !important; */
 }
 
-#hat {
-}
 /* about us --nav bar */
 
 #navbar1 {
@@ -265,6 +267,21 @@ increases playlist size to fill col*/
     .social-menu {
         padding-left:0px;
     }
+
+    .quote {
+        font-family: 'Pacifico', sans-serif;
+        font-size: 300%;
+    }
+
+    .quote-1 {
+        font-size: 200%;
+        font-family: 'Pacifico', sans-serif;
+    }
+
+    .icon-q {
+        font-size: 250%;
+        border-radius: 5%;
+    }
 }
 /* targets the Text in the review section */
 @media only screen and (min-device-width : 1366px) {
@@ -293,6 +310,10 @@ increases playlist size to fill col*/
         padding-bottom:20px;
     }
 
+    #head {
+        padding-left:45px;
+    }
+
     #logo {
         padding-left:65px;
     }
@@ -304,7 +325,7 @@ increases playlist size to fill col*/
     /* increases sizes of quotes against images */
 
     .quote {
-        font-size: 400%;
+        font-size: 350%;
         font-family: 'Pacifico', sans-serif;
         padding:25px;
         
@@ -316,8 +337,12 @@ increases playlist size to fill col*/
     }
 
     .icon-q {
-        font-size: 350%;
+        font-size: 250%;
         border-radius:15%;
+    }
+
+    .body {
+        font:18px;
     }
 }
 
@@ -358,7 +383,7 @@ increases playlist size to fill col*/
     }
 
     .quotes {
-        padding-bottom:65px;
+        max-height:175px;
     }
 }
 
@@ -382,7 +407,11 @@ increases playlist size to fill col*/
     }
 
     .quotes {
-        padding-bottom:40px;
+        padding-bottom:5px;
+    }
+
+    #my book-btn {
+        padding:0;
     }
 }
 
