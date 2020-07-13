@@ -13,7 +13,7 @@ This is the website of a fictional band called 'Letters from Elmo'. The site aim
         1. As a new fan, I want to find out more about the band.
         2. As a new fan I want to engage with the band.
 
-        #### Potential New Client Visitor Goals
+    -   #### Potential New Client Visitor Goals
 
         1. As a wedding planner, I want to look into booking this band.
         2. As a record company exec I want to gauge this band's talent.
@@ -24,7 +24,7 @@ This is the website of a fictional band called 'Letters from Elmo'. The site aim
         3. As an existing fan, I want to buy some merchandise.
         4. As an existing fan, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or band.
 
-        #### Band's Goals
+    -   #### Band's Goals
         1. To promote the band's music.
         2. To advertise the band's merchandise.
         3. To increase event bookings by facilitating the contact process.
