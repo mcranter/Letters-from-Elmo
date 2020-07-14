@@ -2,6 +2,8 @@
 
 [View the live project here.](https://mcranter.github.io/Milestone1-band/index.html)
 
+![d0badaabe56148e49acef82ce36f4986_13_1280](https://user-images.githubusercontent.com/26002975/87408311-33647800-c5bb-11ea-95ac-21ec1c16c9b9.jpg)
+
 This is the website of a fictional band called 'Letters from Elmo'. The site aims to be engaging, informative and easy to navigate.
 
 ## User Experience (UX)
