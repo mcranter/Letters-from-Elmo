@@ -95,8 +95,7 @@ This is the website of a fictional band called 'Letters from Elmo'. The site aim
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) :
-- [Results]()
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/mcranter/Milestone1-band/tree/master/Validator)
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
@@ -148,14 +147,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. The Home page contains a selection of merchandise, clearly labeled and laid out.
 
+    1.  "As an existing fan, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the band."
 
-    1.   "As an existing fan, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the band."
+        1. Each page contains a minimalist, but clearly marked, Newsletter form just above the Footer.
 
-        1. Each page contains a minimalist, but clearly marked Newsletter form just above the Footer.
+-   #### Band/ Site Owner Goals
 
--       #### Band/ Site Owner Goals
-
-    3. "As the owner of the site and member of the band, I wish to increase our revenue."
+    1. "As the owner of the site and member of the band, I wish to increase our revenue."
 
         1. As the this is a priority: both merchandise and professional services (in the form of wedding performances) are advertised on the Home page by way of the 'Review' section.
         2. Merchandise is offered in the form of various items after the 'Review' section.
