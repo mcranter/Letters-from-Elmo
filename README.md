@@ -242,7 +242,6 @@ $ git clone https://github.com/mcranter/Milestone1-band
 ```
 
 Click [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
-```
 
 ## Credits
 
