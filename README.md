@@ -229,7 +229,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ```
 $ git clone https://github.com/mcranter/Milestone1-band
-
+```
 7. Press Enter. Your local clone will be created.
 
 ```
@@ -241,7 +241,7 @@ $ git clone https://github.com/mcranter/Milestone1-band
 > Unpacking objects: 100% (10/10), done.
 ```
 
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+Click [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 ```
 
 ## Credits
