@@ -30,10 +30,10 @@
     </nav>    
 <!--Band cards-adele-->  
     <div class="container" id="card-center">
-        <h2 style="font-family:'Pacifico';" class="" id="head">Meet the Band</h2>
+        <h2 style="font-family:'Pacifico';" id="head1">Meet the Band</h2>
         <div class="row row-cols-xs-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 row-cols-xl-4">
             <div class="col-xs-1">
-                    <div class="card h-100" style="width: 14rem; margin:20px;">
+                <div class="card h-100" style="width: 14rem; margin:20px;">
                     <img src="assets/images/adele.png" class="card-img-top" alt="woman with sg style guitar">
                         <div class="card-body"> 
                             <h4 class="card-title text-center"><strong>Adele</strong></h4>   
@@ -47,9 +47,9 @@
                         <div class="card-footer">
                         <small class="text-muted"><a href="https://www.twitter.com/" target="_blank" style="color:#c0500a; width:125%;"><i class="fab fa-twitter" style="color:#c0500a;"></i>@theotheradele</a></small>
                         </div>
-                    </div>  
+                </div>  
             </div>    
-            <!--Band cards-ginger-->      
+        <!--Band cards-ginger-->      
             <div class="col-xs-1">       
                 <div class="card h-100" style="width: 14rem; margin:20px;">
                     <img src="assets/images/drummer-1.png" class="card-img-top" alt="man drumming">
@@ -65,9 +65,9 @@
                         <div class="card-footer">
                         <small class="text-muted"><a href="https://www.twitter.com/" target="_blank" style="color:#c0500a; width:125%;"><i class="fab fa-twitter" style="color:#c0500a;"></i>@gingerbakery</a></small>
                         </div>
-                    </div>
+                </div>
             </div>  
-            <!--Band cards-Bootsy-->        
+        <!--Band cards-Bootsy-->        
             <div class="col-xs-1">
                 <div class="card h-100" style="width: 14rem; margin:20px;">
                     <img src="assets/images/bass-woman.jpg" class="card-img-top" alt="lady holding bass">
@@ -85,7 +85,7 @@
                     </div>
                 </div>       
             </div>
-            <!--Band cards-banjo-->  
+        <!--Band cards-banjo-->  
             <div class="col-xs-1">
                 <div class="card h-100" style="width: 14rem; margin:20px;">
                     <img src="assets/images/banjo1.png" class="card-img-top" alt="man with banjo">
@@ -104,15 +104,16 @@
                 </div>
             </div>    
         </div> 
-</div>        
+    </div>        
     <hr class="hr">
  <!--spotify playlist-->  
-    <div class="container">     
+    <div class="container">
+        <h2 style="font-family:'Pacifico';" id="head2">Listen to the Band</h2>
         <div class="row" id="gap">
             <div class="col-sm-6" id="media2">
                 <iframe src="https://open.spotify.com/embed/playlist/2B7bxLHxTJvyrow1g4XU0n" style="width:100%" height="500" allow="encrypted-media" class="text-center"></iframe>
             </div>       
- <!-- discography table-->
+        <!-- discography table-->
             <div class="col">
                 <table class="table-responsive table-dark" id="discog">
                     <thead>
@@ -174,6 +175,7 @@
     <!-- video player-->
         <div class="row">
             <div class="col text-center">
+                <h2 style="font-family:'Pacifico';" id="head3">Watch the Band</h2>
                 <p class="text-center mb-0"><em>Check out our latest single</em></p> 
                 <h3 class="text-center" id="vid-place">Video Placeholder</h3>
             </div>
@@ -188,25 +190,25 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <!--Footer--> 
     <footer>
-    <!--newsletter--> 
-    <section class="newsletter" id="news">
+    <!--Newsletter-->  
+    <section class="newsletter">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 nsu1">
                     <form class="signup">
                     <h5 class="text-center" style="font-family:'Pacifico';">Subscribe to our Newsletter!</h5>
-                <div class="input-group">
-                <input type="email" class="form-control" placeholder="Enter your email" required>
-                <span class="input-group-btn">
-                <button type="btn" class="btn btn-warning" id="btn-sub">Submit</button>
-                </span>
-                </div>
-                </form>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email" required>
+                        <span class="input-group-btn">
+                        <button type="btn" class="btn btn-warning" id="btn-sub">Submit</button>
+                        </span>
+                    </div>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
-    <div>
+    <!--social icons-->  
         <ul class="social-menu">
             <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
             <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
@@ -214,7 +216,6 @@
             <li><a href="https://www.itunes.com/" target="_blank"><i class="fab fa-itunes"></i></a></li>            
             <li><a href="https://www.spotify.com/" target="_blank"><i class="fab fa-spotify"></i></a></li>        
         </ul>
-    </div>    
     </footer>
 </body>
 </html>

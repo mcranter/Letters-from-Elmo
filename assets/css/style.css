@@ -1,5 +1,4 @@
-/* Header ------ Logo */
-
+/* Header ------  */
 #logo {
     font-family: 'Pacifico', sans-serif;
     letter-spacing: 3px;
@@ -76,18 +75,29 @@ body {
 #intro {
     padding-top:40px;
     font-weight:300;
-    font-size:175%;
+    font-size:160%;
+    width:100%;
+    
 }
 
 .intro2 {
     font-size:125%;
+    width:90%;
+    padding-left:70px;
 }
 
+/* styles embedded video */
 #video {
     padding-top:10px;
     padding-bottom:30px;
 }
 
+#vid-place {
+    text-shadow: 0 1px black, -1px 0 black;
+    padding-bottom:15px;
+}
+
+/* styles Review quotes */
 .quote {
     text-align:center;
     width:100%;
@@ -105,15 +115,12 @@ body {
     border-radius:5%;
 }
 
-#vid-place {
-    text-shadow: 0 1px black, -1px 0 black;
-}
-
 .icon {
     font-size:150%;
     background: rgba(0, 0, 0, .1);
 }
 
+/* Merchandise section styling */
 #tshirt {
     width:100%;
     height:auto;
@@ -236,9 +243,6 @@ body {
     width:100%;   
 }
 
-#gap {
-    padding-bottom:20px;
-}
 #video1 {
     padding:0;
     padding-bottom:30px;
@@ -254,7 +258,6 @@ body {
     padding-right:20px;
 }
 
-
 /* Media Querys:
 increases playlist size to fill col*/
 @media screen and (max-width: 1365px) {
@@ -266,7 +269,26 @@ increases playlist size to fill col*/
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
     #card-center { 
         padding-left:80px;
+        padding-bottom:60px;
+    }  
+
+    #head1 {
+        padding-top:20px;
+        padding-left:175px;
+    }
+
+    #head2 {
         padding-bottom:20px;
+        padding-left:200px;
+    }
+
+    #head3 {
+        padding-bottom:20px;
+        padding-top:40px;
+    }
+
+    #news {
+        padding-left:175px;
     }
 
     #logo {
@@ -291,6 +313,26 @@ increases playlist size to fill col*/
         font-size: 250%;
         border-radius: 5%;
     }
+
+    #reviews {
+        padding-bottom: 20px;
+    }
+
+    .hr {
+        padding-top:20px;
+    }
+
+    #merch-row {
+        padding-top:40px;
+    }
+
+    .nsu1 {
+        padding-left:125px;
+        padding-bottom:0;
+        padding-top:50px;
+        padding-right:0;
+    }
+
 }
 /* targets the Text in the review section */
 @media only screen and (min-width : 1366px) {
@@ -298,7 +340,6 @@ increases playlist size to fill col*/
         font-size: 400%;
         font-family: 'Pacifico', sans-serif;
         padding:25px;
-        
     }
 
     .quote-1 {
@@ -316,11 +357,21 @@ increases playlist size to fill col*/
 @media only screen and (min-width : 1024px) and (max-width : 1366px) { 
     #card-center { 
         padding-left:0px;
-        padding-bottom:20px;
+        padding-bottom:60px;
     }
 
-    #head {
-        padding-left:45px;
+    #gap {
+        padding-top:40px;
+    }
+
+    #head1 {
+        padding-left:375px;
+        padding-top:60px;
+        padding-bottom:35px;
+    }
+
+    #head2 {
+        padding-left:325px;
     }
 
     #logo {
@@ -331,17 +382,20 @@ increases playlist size to fill col*/
         padding-left:0;
     }
 
+    #news {
+        padding-left:225px;
+    }
+    
     /* increases sizes of quotes against images */
 
     .quote {
         font-size: 350%;
         font-family: 'Pacifico', sans-serif;
         padding:25px;
-        
     }
 
     .quote-1 {
-        font-size: 300%;
+        font-size: 250%;
         font-family: 'Pacifico', sans-serif;
     }
 
@@ -356,6 +410,13 @@ increases playlist size to fill col*/
 
     #discog {
         font-size:90%;
+    }
+
+    .nsu1 {
+        padding-left:150px;
+        padding-bottom:0;
+        padding-top:50px;
+        padding-right:0;
     }
 }
 
@@ -375,7 +436,7 @@ increases playlist size to fill col*/
 }
 
 
-/* centres text/logo/headers on iPhone 5se on Chrome Dev Tools mobile emulator */
+/* centres text/logo/headers on iPhone 5/SE on Chrome Dev Tools mobile emulator */
 @media only screen and (min-width : 320px) and (max-width : 568px) {
      #navbar1 {
         padding-left:30px;
@@ -383,7 +444,11 @@ increases playlist size to fill col*/
     
     #card-center { 
         padding-left:45px;
-        padding-bottom:25px;
+        padding-bottom:60px;
+    }
+
+    #discog {
+        padding-bottom:60px;
     }
 
     #logo {
@@ -391,13 +456,48 @@ increases playlist size to fill col*/
         padding-bottom:15px;
     }
 
+    #head1 {
+        padding-top:20px;
+        padding-left:15px;
+    }
+
+    #head3 {
+        padding-top:40px;
+        padding-bottom:20px;
+    }
+    
+    #gap {
+        padding-top:20px;
+        padding-bottom:50px;
+    }
+
     .social-menu {
         padding-left:0px;
+    }
+/* resizes Index page text & quotes */
+
+    #intro {
+        padding-left:10px;
+    }
+
+    .intro2 {
+        padding-left:6px;
+        width:100%;
     }
 
     .quotes {
         max-height:175px;
     }
+
+    .quote-1 {
+        font-size:95%;
+    }
+
+    .nsu1 {
+        padding-top:35px;
+        padding-bottom:25px;
+    }
+
 }
 
 /* centres text/logo/headers on Moto4/Galaxy 5 on Chrome Dev Tools mobile emulator */
@@ -408,8 +508,29 @@ increases playlist size to fill col*/
     
     #card-center { 
         padding-left:65px;
+        padding-bottom:50px;
     }
 
+    #head1 {
+        padding-top:20px;
+        padding-left:10px;
+    }
+
+    #head2 {
+        padding-left:25px;
+        padding-bottom:20px;
+    }
+
+    #head3 {
+        padding-left:5px;
+        padding-bottom:20px;
+        padding-top:20px;
+    }
+
+    #gap {
+        padding-bottom:20px;
+    }
+    
     #logo {
         padding-left:55px;
         padding-bottom:20px;
@@ -418,9 +539,31 @@ increases playlist size to fill col*/
     .social-menu {
         padding-left:0px;
     }
-
+/* Index Page - resizing text*/
     .quotes {
         padding-bottom:5px;
+    }
+
+    #intro {
+        padding-left:10px;
+    }
+
+    .intro2 {
+        padding-left:10px;
+        width:100%;
+    }
+
+    #reviews {
+        padding-bottom:20px;
+    }
+
+    #merch-row {
+        padding-top:20px;
+    }
+
+    .nsu1 {
+        padding-top:35px;
+        padding-bottom:25px;
     }
 }
 
@@ -463,15 +606,35 @@ increases playlist size to fill col*/
     .social-menu {
         padding-left:0px;
     }
+
+    #head2 {
+        padding-left:40px;
+        padding-bottom:20px;
+    }
+
+    #head3 {
+        padding-bottom:20px;
+        padding-top:20px;
+    }
+
+    /* index page - intro text resizing */
+
+    #intro {
+        padding-left:10px;
+    }
+
+    .intro2 {
+        padding-left:10px;
+    }
+
+    #intro3 {
+        font-size:125%;
+    }
 }  
 
 .thumb {
     width:60px;
     height:60px;
-}
-
-.hr {
-    margin:40px;
 }
 
 .merch {
@@ -511,10 +674,9 @@ increases playlist size to fill col*/
   width: 100%;
 }
 
-#head {
-    margin:0;
+#head2 {
     letter-spacing:2px;
-    padding-top:30px;
+    padding-top:40px;
 }
 
 /* Responsive layout to make a two column-layout instead of four columns */
@@ -555,50 +717,6 @@ increases playlist size to fill col*/
 }
 
 /* Newsletter sign up form*/   
-
-.newsletter {
-    padding: 40px 0;
-}
-
-.newsletter .content {
-    max-width: 650px;
-    margin: 25px auto;
-    text-align: center;
-    position: relative;
-    z-index: 2; 
-}
-
-.newsletter .content h2 {
-    color: #ca5005;
-    margin-bottom: 40px; 
-}
-
-.newsletter .content .form-control {
-    height: 50px;
-    border-color: #ca5005;
-    border-radius:0;
-}
-
-.newsletter .content.form-control:focus {
-    box-shadow: none;
-    border: 2px solid #ca5005;
-}
-
-.newsletter .content .btn {
-    min-height: 50px; 
-    border-radius:0;
-    background: #ca5005;
-    color: #fff;
-    font-weight:600;
-}
-
-#news-mail {
-     border-color: #ca5005;
-}
-
-#news-mail:valid {
-     border-color: green;
-}
 
 #btn-sub {
     background-color:#ca5005;

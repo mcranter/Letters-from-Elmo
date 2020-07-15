@@ -36,15 +36,16 @@
         </div>    
         <div class="row">
             <div class="col-12">
-            <h1 class="text-center" id="intro"><em>Letters from Elmo are Ireland's premiere pop-rock events collective.</em></h1>
-            <br>
-            <p class="text-center intro2">Formed in Dublin back in 2007, L.F.E have come a long way from gigging around the city's dingy dive bars.</p> 
-            <p class="text-center intro2">Fast forward to 2020 and we have mastered every genre, toured worldwide and supported epic acts such as <em><strong>Busted Chifarobe, Logan's Sun</strong></em> and <em><strong>Klondike Kittens</strong></em>.
-            <br>
-            <div id="weddings"><p class="text-center" style="font-size:150%"><em><strong>Weddings? <i class="fas fa-heart"></i> Corporate Events? <i class="fas fa-user-tie"></i> Parties? <i class="fas fa-glass-cheers"></i>
-            We play them all!</strong></em></p>
+                <h1 class="text-center" id="intro"><em>Letters from Elmo are Ireland's premiere pop-rock events collective.</em></h1>
+                <br>
+                <p class="text-center intro2">Formed in Dublin back in 2007, L.F.E have come a long way from gigging around the city's dingy dive bars.</p> 
+                <p class="text-center intro2">Fast forward to 2020 and we have mastered every genre, toured worldwide and supported epic acts such as <em><strong>Busted Chifarobe, Logan's Sun</strong></em> and <em><strong>Klondike Kittens</strong></em>.
+                <br>
+            <div id="weddings">
+                <p class="text-center" style="font-size:150%"><em><strong>Weddings? <i class="fas fa-heart"></i> Corporate Events? <i class="fas fa-user-tie"></i> Parties? <i class="fas fa-glass-cheers"></i>
+                We play them all!</strong></em></p>
             </div>
-            <p class="text-center">Get in touch to find out more.</p>
+            <p class="text-center" id="intro3">Get in touch to find out more.</p>
             <div class="text-center">
             <a class="btn btn-primary btn-lg" href="about-us.html" role="button" id="learn">Learn More</a>          
             </div>
@@ -55,7 +56,7 @@
     </section>
     <!--Reviews carousel-->
     <div class="container">
-        <h2 style="font-family:'Pacifico';" class="text-center"> Reviews </h2>        
+        <h2 style="font-family:'Pacifico';" id="reviews" class="text-center"> Reviews </h2>        
         <div id="my-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" id="my-carousel0">
@@ -63,15 +64,14 @@
                 <div class="carousel-caption text-center quotes">
                     <i class="fas fa-quote-left icon icon-q"></i>
                     <h5 class="quote">We had a great time on our special day!</h5>
-                    <p class="quote-1"><em>Alison & Mark, Mayo 23/09/19</em></p>
-                    
+                    <p class="quote-1"><em>Alison & Mark, Mayo 23/09/19</em></p>    
                 </div>
                 </div>
                 <div class="carousel-item" id="my-carousel1">
                     <img class="d-block w-100 h-200" src="assets/images/slide2.jpg" alt="bride&groom">
                 <div class="carousel-caption quotes">
                     <i class="fas fa-quote-left icon icon-q"></i>
-                    <h4 class="quote">Our guests loved L.F.E!</h4>
+                    <h4 class="quote">Our guests loved the music!</h4>
                     <p class="quote-1"><em>Max & Max, Dublin 09/09/19</em></p>
                 </div>
                 </div>            
@@ -80,11 +80,11 @@
                 <div class="carousel-caption quotes">
                     <i class="fas fa-quote-left icon icon-q"></i>
                     <h4 class="quote">I'm booking you for all my weddings!</h4>
-                    <p class="quote-1"><em>Joan & Gavin, Galway 12/12/19</em></p>
+                    <p class="quote-1"><em>Joe & Jo, Galway 12/12/19</em></p>
                 </div>
                 </div>
             </div>
-            <!--carousel controls--> 
+        <!--carousel controls--> 
             <a class="carousel-control-prev" href="#my-carousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
@@ -98,10 +98,12 @@
             </div>
         </div>        
     </div> 
+    <br>
     <hr class="hr">
-    <!--Merchandise card-->
+<!--Merchandise card T shirt-->
     <div class="container">
-        <div class="row">
+        <h2 style="font-family:'Pacifico';" class="text-center"> Merchandise </h2>  
+        <div class="row" id="merch-row">
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <div class="card tee">
                     <h3 class="text-center merch">Buy Our Merch</h3>
@@ -117,11 +119,13 @@
                             <option value="media">Large</option>
                             <option value="other">XLarge</option>
                             </select>
-                        </div> 
-                    <div class="text-center"><button type="button" style="background-color:#c24d04;" class="btn btn-warning btn-lg">Buy Now</button></div>
+                    </div> 
+                    <div class="text-center">
+                    <button type="button" style="background-color:#c24d04;" class="btn btn-warning btn-lg">Buy Now</button>
+                    </div>
                 </div>
             </div>
-
+        <!--Merchandise card - Beanie-->    
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <div class="card">
                     <h3 class="text-center merch">Buy Our Merch</h3>
@@ -130,38 +134,39 @@
                     <p class="price pbtn">€14.99</p>
                     <p>Premium embroidered cap, fairtrade and 100% vegan.</p>
                     <div class="form-group">
-                            <label for="subject">Colour</label>
-                            <select name="subject" class="form-control">
-                            <option value="event">Grey</option>
-                            <option value="press">Green</option>
-                            <option value="media">Orange</option>
-                            <option value="other">Black</option>
-                            </select>
+                        <label for="subject">Colour</label>
+                        <select name="subject" class="form-control">
+                        <option value="event">Grey</option>
+                        <option value="press">Green</option>
+                        <option value="media">Orange</option>
+                        <option value="other">Black</option>
+                        </select>
                     </div> 
-                    <div class="text-center"><button type="button" style="background-color:#c24d04;" class="btn btn-warning btn-lg">Buy Now</button></div>
+                    <div class="text-center">
+                    <button type="button" style="background-color:#c24d04;" class="btn btn-warning btn-lg">Buy Now</button>
+                    </div>
                 </div>
             </div>
-
+        <!--Merchandise card - Gaiter-->  
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <div class="card">
                     <h3 class="text-center merch">Buy Our Merch</h3>
                     <img id="gaiter" src="assets/images/gaiter-sm.png" class="card-img-top" alt="band gaiter">
-                    <h4>Classic Gaiter</h4>
+                    <h4>Classic Neck Gaiter</h4>
                     <p class="price pbtn">€14.99</p>
                     <p>Stay safe! Cozy, fairtrade and 100% vegan.</p>
                     <div class="form-group" style="size:107%">
-                            <label for="subject">Colour</label>
-                            <select name="subject" id="subject" class="form-control">
-                            <option value="event">Grey</option>
-                            <option value="press">Green</option>
-                            <option value="media">Orange</option>
-                            <option value="other">Black</option>
-                            </select>
+                        <label for="subject">Colour</label>
+                        <select name="subject" id="subject" class="form-control">
+                        <option value="event">Grey</option>
+                        <option value="press">Green</option>
+                        <option value="media">Orange</option>
+                        <option value="other">Black</option>
+                        </select>
                     </div> 
                     <div class="text-center"><button type="button" style="background-color:#c24d04;" class="btn btn-warning btn-lg">Buy Now</button></div>
                 </div>
             </div>       
-
         </div>   
     </div>  
     <!--Scripts-->
@@ -170,24 +175,25 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!--footer-->      
     <footer>
-    <!--Newsletter signup form-->
+    <!--Newsletter-->  
     <section class="newsletter">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-10 nsu1">
                     <form class="signup">
                     <h5 class="text-center" style="font-family:'Pacifico';">Subscribe to our Newsletter!</h5>
-                <div class="input-group">
-                <input type="email" class="form-control" placeholder="Enter your email" required>
-                <span class="input-group-btn">
-                <button type="btn" class="btn btn-warning" id="btn-sub">Submit</button>
-                </span>
-                </div>
-                </form>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email" required>
+                        <span class="input-group-btn">
+                        <button type="btn" class="btn btn-warning" id="btn-sub">Submit</button>
+                        </span>
+                    </div>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
+    <!--Social icons -->  
         <ul class="social-menu" style="padding:0;">
         <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
         <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
