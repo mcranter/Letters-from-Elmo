@@ -170,7 +170,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. The Home page contains a selection of merchandise, clearly labeled and laid out.
 
-        ![](assets/images/merch-mock.jpg)
+        ![text](assets/images/merch-mock.jpg)
 
     4.  "As an existing fan, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the band."
 
