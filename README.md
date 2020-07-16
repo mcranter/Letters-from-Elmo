@@ -8,7 +8,7 @@ This is the website of a fictional band called 'Letters from Elmo'. The site aim
 
 ## User Experience (UX)
 
--   ### User stories
+-   ### User Stories
 
     -   #### New Fan Visitor Goals
 
@@ -248,9 +248,9 @@ Click [here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Code
 
 -   The Newsletter sign-up form code above the footer was written with the help of [this](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_inline_form) W3 Schools guide in combination with this [Bootsnipp](https://bootsnipp.com/snippets/AlM7P) guide.
-
+-   The Shadow effects over the Video text on About Us page created using this [W3 Schools guide](https://www.w3schools.com/css/css3_shadows.asp)
 -   Bootstrap Documentation used throughout this project for: 
-    [Grid Layout](https://getbootstrap.com/docs/4.0/layout/grid/), Discography [table](https://getbootstrap.com/docs/4.0/content/tables/)(About Us page), Band profile [cards](https://getbootstrap.com/docs/4.0/components/card/)(About Us page, Index), [Buttons](https://getbootstrap.com/docs/4.0/components/buttons/)(all pages), [Carousel](https://getbootstrap.com/docs/4.0/components/carousel/)(Index, About Us, Gallery pages), [Navbar](https://getbootstrap.com/docs/4.0/components/navbar/)(all)
+    [Grid Layout](https://getbootstrap.com/docs/4.0/layout/grid/), Discography [table](https://getbootstrap.com/docs/4.0/content/tables/)(About Us page), Band profile [cards](https://getbootstrap.com/docs/4.0/components/card/)(About Us page, Index), [Buttons](https://getbootstrap.com/docs/4.0/components/buttons/)(all pages), [Carousel](https://getbootstrap.com/docs/4.0/components/carousel/)(Index, About Us, Gallery pages), [Navbar](https://getbootstrap.com/docs/4.0/components/navbar/)(all), [Contact form](https://getbootstrap.com/docs/4.5/components/forms/)(Contact Page).
 
 ### Content
 

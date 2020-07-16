@@ -86,17 +86,6 @@ body {
     padding-left:70px;
 }
 
-/* styles embedded video */
-#video {
-    padding-top:10px;
-    padding-bottom:30px;
-}
-
-#vid-place {
-    text-shadow: 0 1px black, -1px 0 black;
-    padding-bottom:15px;
-}
-
 /* styles Review quotes */
 .quote {
     text-align:center;
@@ -180,7 +169,7 @@ body {
     width: 100%; /* or width: 100% !important; */
 }
 
-/* about us --nav bar */
+/* About US --nav bar */
 
 #navbar1 {
     text-align: center;
@@ -190,7 +179,20 @@ body {
     color:#c0500a;
 }
 
+/* styles embedded video */
+
+#video {
+    padding-top:10px;
+    padding-bottom:30px;
+}
+
+#vid-place {
+    text-shadow: 0 1px black, -1px 0 black;
+    padding-bottom:15px;
+}
+
 /* Footer */
+
 #footer {
     height:300px;
 }
@@ -258,8 +260,7 @@ body {
     padding-right:20px;
 }
 
-/* Media Querys:
-increases playlist size to fill col*/
+/* Media Query: increases playlist size to fill col */
 @media screen and (max-width: 1365px) {
     #media2 {
         width:450px;
@@ -435,7 +436,6 @@ increases playlist size to fill col*/
     }
 }
 
-
 /* centres text/logo/headers on iPhone 5/SE on Chrome Dev Tools mobile emulator */
 @media only screen and (min-width : 320px) and (max-width : 568px) {
      #navbar1 {
@@ -474,6 +474,7 @@ increases playlist size to fill col*/
     .social-menu {
         padding-left:0px;
     }
+
 /* resizes Index page text & quotes */
 
     #intro {
@@ -539,7 +540,9 @@ increases playlist size to fill col*/
     .social-menu {
         padding-left:0px;
     }
+
 /* Index Page - resizing text*/
+
     .quotes {
         padding-bottom:5px;
     }
@@ -679,7 +682,7 @@ increases playlist size to fill col*/
     padding-top:40px;
 }
 
-/* Responsive layout to make a two column-layout instead of four columns */
+/* Resizes to two column-layout instead of four columns */
 
 @media screen and (max-width: 800px) {
     .column-gal {
@@ -687,9 +690,6 @@ increases playlist size to fill col*/
         max-width: 50%;
   }
 }
-
-/* media query */
-/* Responsive layout - makes two columns stack on top of each other */
 
 @media screen and (max-width: 600px) {
     .column-gal {
