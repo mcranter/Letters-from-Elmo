@@ -64,7 +64,7 @@ This is the website of a fictional band called 'Letters from Elmo'. The site aim
 -   About Us: Discography table scrolls horizontally to allow it to be entirely visible on small devices.
 
 
--   ## Future Features:
+-   ### Future Features:
 
 -   A lightbox on the Gallery page to enable visitors to view the images in more detail.
 -   A sedicated merchandise page to further generate revenue.
@@ -114,8 +114,9 @@ This is the website of a fictional band called 'Letters from Elmo'. The site aim
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://validator.w3.org/) ![Results](assets/images/)
-Format: ![Alt Text](url))
--   [W3C CSS Validator]() - [Results](assets/images/)
+
+-   [W3C CSS Validator]() - [Results](assets/images/w3c-CSS.png)
+
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -126,6 +127,8 @@ Format: ![Alt Text](url))
         1. Index Page: Textual information is concise and divide into small sections so as to inform but not bore the visitor.
         2. About Us: this page provides information on band members as well as samples of the band's music and their discography.
         3. Gallery: provides images of the band in action as well as images of happy fans.
+      
+        ![](assets/images/woman-phone.jpg)
 
     2. "As a new fan I want to engage with the band."
 
@@ -146,6 +149,8 @@ Format: ![Alt Text](url))
         1. Contact details are  clearly signposted on the contact page making it easy to find and contact the band.
         2. Wedding reviews promoted on the home page add an inducement to book the band.
 
+    ![](assets/images/contact-mock.jpg)
+
     2. "As a record company exec I want to gauge this band's talent."
 
         1. Samples of the band's music - video and an audio playlist - are embedded on the About Us page to make it easy to experience the band's work with minimal effort.
@@ -165,6 +170,8 @@ Format: ![Alt Text](url))
 
         1. The Home page contains a selection of merchandise, clearly labeled and laid out.
 
+        ![](assets/images/merch-mock.jpg)
+
     4.  "As an existing fan, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the band."
 
         1. Each page contains a minimalist, but clearly marked Newsletter form just above the Footer.
@@ -176,7 +183,6 @@ Format: ![Alt Text](url))
         1. As the this is a priority: both merchandise and professional services (in the form of wedding performances) are advertised on the Home page by way of the 'Review' section.
         2. Merchandise is offered in the form of various items after the 'Review' section on the Home page.
 
-
 -   #### Frequent User Goals & Solutions
 
     1. "As a Frequent Visitor, I want to check to see if there are any updates to the band."
@@ -184,6 +190,7 @@ Format: ![Alt Text](url))
         1. The inclusion of clickable social media icons in the Footer makes keeping up-to-date in real-time possible.
         2. The inclusion of the respective band member's Twitter handles on the About Us page facilitates communication of updates.
         3. The Newsletter sign up form offers the chance to keep informed.
+        ![](assets/images/social-news.jpg)
 
 ### Further Testing
 
@@ -250,7 +257,7 @@ Click [here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   The Newsletter sign-up form code above the footer was written with the help of [this](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_inline_form) W3 Schools guide in combination with this [Bootsnipp](https://bootsnipp.com/snippets/AlM7P) guide.
 -   The Shadow effects over the Video text on About Us page created using this [W3 Schools guide](https://www.w3schools.com/css/css3_shadows.asp)
 -   Bootstrap Documentation used throughout this project for: 
-    [Grid Layout](https://getbootstrap.com/docs/4.0/layout/grid/), Discography [table](https://getbootstrap.com/docs/4.0/content/tables/)(About Us page), Band profile [cards](https://getbootstrap.com/docs/4.0/components/card/)(About Us page, Index), [Buttons](https://getbootstrap.com/docs/4.0/components/buttons/)(all pages), [Carousel](https://getbootstrap.com/docs/4.0/components/carousel/)(Index, About Us, Gallery pages), [Navbar](https://getbootstrap.com/docs/4.0/components/navbar/)(all), [Contact form](https://getbootstrap.com/docs/4.5/components/forms/)(Contact Page).
+    [Grid Layout](https://getbootstrap.com/docs/4.0/layout/grid/), Discography [table](https://getbootstrap.com/docs/4.0/content/tables/) (About Us page), Band profile [cards](https://getbootstrap.com/docs/4.0/components/card/) (About Us page, Index), [Buttons](https://getbootstrap.com/docs/4.0/components/buttons/) (all pages), [Carousel](https://getbootstrap.com/docs/4.0/components/carousel/) (Index, About Us, Gallery pages), [Navbar](https://getbootstrap.com/docs/4.0/components/navbar/) (all), [Contact form](https://getbootstrap.com/docs/4.5/components/forms/) (Contact Page).
 
 ### Content
 
@@ -260,7 +267,8 @@ Click [here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Images used for this site were sourced from a combination of free online libraries: [Pixabay](https://pixabay.com/images/search/band/), [Pexels](https://www.pexels.com/search/band/), [Burst](https://burst.shopify.com/wedding). Product mock-ups were generated using [Printful](www.printful.com).
 -   Audio: Embedded audio is a royalty-free, common usage playlist from Spotify user @Frequency. 
--   Video: Embedded video courtest of Youtube user [Tristan Brehaut](https://www.youtube.com/channel/UCpQf6HehML7MIdzApJx_vjw)
+-   Video: Embedded video courtest of Youtube user [Tristan Brehaut](https://www.youtube.com/channel/UCpQf6HehML7MIdzApJx_vjw).
+-   Device mock-ups made using [Magic Mock-ups](https://magicmockups.com/).
 
 ### Acknowledgements
 
