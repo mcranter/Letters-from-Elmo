@@ -711,7 +711,7 @@ body {
     padding-top:35px;
 }
 
-#btn-sub {
+.btn-sub {
     background-color:#ca5005;
     color: rgb(236, 82, 43);
 }

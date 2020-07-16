@@ -113,9 +113,13 @@ This is the website of a fictional band called 'Letters from Elmo'. The site aim
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/) ![Results](assets/images/)
+-   [W3C Markup Validator](https://validator.w3.org/) Results:
+-   Index![](assets/images/index.png)
+-   About![](assets/images/about.png)
+-   Gallery![](assets/images/gallery.png)
+-   Contact![](assets/images/contact.png)
 
--   [W3C CSS Validator]() - [Results](assets/images/w3c-CSS.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/) - ![](assets/images/w3c-CSS.png)
 
 
 ### Testing User Stories from User Experience (UX) Section
@@ -267,7 +271,7 @@ Click [here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Images used for this site were sourced from a combination of free online libraries: [Pixabay](https://pixabay.com/images/search/band/), [Pexels](https://www.pexels.com/search/band/), [Burst](https://burst.shopify.com/wedding). Product mock-ups were generated using [Printful](www.printful.com).
 -   Audio: Embedded audio is a royalty-free, common usage playlist from Spotify user @Frequency. 
--   Video: Embedded video courtest of Youtube user [Tristan Brehaut](https://www.youtube.com/channel/UCpQf6HehML7MIdzApJx_vjw).
+-   Video: Embedded video courtesy of Youtube user [Tristan Brehaut](https://www.youtube.com/channel/UCpQf6HehML7MIdzApJx_vjw).
 -   Device mock-ups made using [Magic Mock-ups](https://magicmockups.com/).
 
 ### Acknowledgements
