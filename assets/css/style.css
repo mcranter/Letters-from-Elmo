@@ -164,7 +164,7 @@ body {
 }
 
 .carousel-inner {
-    width: 100%; /* or width: 100% !important; */
+    width: 100%; 
 }
 
 /* About US --nav bar */
@@ -327,11 +327,10 @@ body {
 
     .nsu1 {
         padding-left:125px;
-        padding-bottom:0;
-        padding-top:50px;
+        padding-bottom:50px;
+        padding-top:75px;
         padding-right:0;
     }
-
 }
 /* targets the Text in the review section */
 @media only screen and (min-width : 1366px) {
@@ -413,8 +412,8 @@ body {
 
     .nsu1 {
         padding-left:150px;
-        padding-bottom:0;
-        padding-top:50px;
+        padding-bottom:55px;
+        padding-top:100px;
         padding-right:0;
     }
 }
@@ -431,6 +430,11 @@ body {
 
     .social-menu {
         padding-left:0px;
+    }
+
+    .nsu1 {
+        padding-top:75px;
+        padding-bottom:75px;
     }
 }
 
@@ -493,8 +497,8 @@ body {
     }
 
     .nsu1 {
-        padding-top:35px;
-        padding-bottom:25px;
+        padding-top:75px;
+        padding-bottom:75px;
     }
 
     /* Gallery text resize */
@@ -502,7 +506,6 @@ body {
         font-size:100%;
         line-height: 15px;
     }
-    
 }
 
 /* centres text/logo/headers on Moto4/Galaxy 5 on Chrome Dev Tools mobile emulator */
@@ -569,8 +572,8 @@ body {
     }
 
     .nsu1 {
-        padding-top:35px;
-        padding-bottom:25px;
+        padding-top:75px;
+        padding-bottom:75px;
     }
 }
 
@@ -653,7 +656,6 @@ body {
     padding-top:5px;
 }
 
-
 /*-----Galllery-----------*/
 
 .gall-slide {
@@ -725,6 +727,10 @@ body {
 #btn-sub {
     background-color:#ca5005;
     color: white;
+}
+
+.nsu {
+    padding-top: 150px;
 }
 
 /* Contact Page */
