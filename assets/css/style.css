@@ -352,7 +352,7 @@ body {
 }
 
 /* centres text/logo/headers on iPad Pro on Chrome Dev Tools mobile emulator*/
-@media only screen and (min-width : 1024px) and (max-width : 1366px) { 
+@media only screen and (min-width : 1024px) and (max-width : 2560px) { 
     #card-center { 
         padding-left:0px;
         padding-bottom:60px;
