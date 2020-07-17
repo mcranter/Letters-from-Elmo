@@ -2,7 +2,7 @@
 
 [View the live project here.](https://mcranter.github.io/Milestone1-band/index.html)
 
-![d0badaabe56148e49acef82ce36f4986_13_1280](https://user-images.githubusercontent.com/26002975/87408311-33647800-c5bb-11ea-95ac-21ec1c16c9b9.jpg)
+![](assets/images/mock-up1.jpg)
 
 This is the website of a fictional band called 'Letters from Elmo'. The site aims to be engaging, informative and easy to navigate.
 
@@ -174,7 +174,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. The Home page contains a selection of merchandise, clearly labeled and laid out.
 
-        ![text](assets/images/merch-mock.jpg)
+        ![](assets/images/merch-mock.jpg)
 
     4.  "As an existing fan, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the band."
 
@@ -202,6 +202,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone5/6/7/8,iPhoneX, iPad, Moto, Galaxy 5.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   Example of site behaviour on various devices:
+  [Part 1](https://monosnap.com/file/ntJNZNvCSQ3nzrwZdScuoxh84JbMt4), [Part 2](https://monosnap.com/file/aYOo5aGvuVi1fxjqSxQ8M243vUqt1D), [Part 3](https://monosnap.com/file/z8yGS0m5H57zFEv6myiBKaoxsdmtLJ), [Part 4](https://monosnap.com/file/26Fl71a4oOPdHkHwMo1bBC0wXSnwcY), [Part 5](https://monosnap.com/file/6Fk9i4cMG3q2D22Ipb5hEti5CjFgyI), [Part 6](https://monosnap.com/file/5UqmBHOAEpkBEGtH4SlGRWfIHn1JzT), [Part 7](https://monosnap.com/file/orqsBTygbmMFHHdr8yh6dBmRa16u8J), [Part 8](https://monosnap.com/file/pK8kiEGSOCuLCx0QzCmPPGOKWJG5Xr).
 
 ### Known Bugs
 
