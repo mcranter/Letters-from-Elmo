@@ -1,5 +1,4 @@
-<h1 align="center">Milestone Project 1</h1>
-
+##### Letters from Elmo - A Band's Website. 
 [View the live project here.](https://mcranter.github.io/Milestone1-band/index.html)
 
 ![](assets/images/mock-up1.jpg)
