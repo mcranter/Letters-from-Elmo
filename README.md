@@ -1,5 +1,5 @@
 ##### Letters from Elmo - A Band's Website. 
-[View the live project here.](https://mcranter.github.io/Milestone1-band/index.html)
+[View the live project here.](https://mcranter.github.io/Letters-from-Elmo/)
 
 ![](assets/images/mock-up1.jpg)
 
